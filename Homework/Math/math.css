@@ -1,0 +1,44 @@
+html {
+	background-image: url("mountain.jpg");
+}
+
+h1{
+    text-align: center;
+}
+body {
+}
+
+p{
+    font-size: 2em;
+}
+
+table {
+
+}
+
+#guess, #result {
+}
+
+result{
+
+}
+
+.image {
+	position: absolute;
+	opacity: 0;
+	z-index: 1;
+}
+
+.showing {
+	position: absolute;
+	left: 350px;
+	top: 250px;
+	list-style-type: none;
+	opacity: 1;
+	z-index: 2;
+}
+
+form #numForm {
+	padding-top: 100px;
+}
+

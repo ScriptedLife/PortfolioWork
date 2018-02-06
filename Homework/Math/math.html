@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="math.css" rel="stylesheet">
+		<script type="text/javascript" src="math.js"></script>
+	</head>
+    
+	<header>
+        <h1>Save the Goat</h1>
+    </header>
+    
+	<body onload="math()">
+        <p>Guess the correct number between 1 and 15 within 5 tries to save the goat.</p>
+		<form name="mathForm">
+			<input type="text" name="guess" id="guess"><br>
+			<button type="button" id="button" onclick="analyzeNum()">Press</button><br>
+			<input type="text" id="result" disabled>
+		</form>
+		
+		<ul id="images">
+            <li class="image"><img src="goatUpdate.jpg"></li>
+            <li class="image"><img src="goatUpdate2.jpg"></li>
+            <li class="image"><img src="goatUpdate3.jpg"></li>
+            <li class="image"><img src="goatUpdate4.jpg"></li>
+            <li class="image"><img src="goatDead.jpg"></li>
+            <li class="image"><img src="goatSave.jpg"></li>
+		</ul>
+	</body>
+</html>
